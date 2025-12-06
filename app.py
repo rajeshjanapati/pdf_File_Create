@@ -32,7 +32,7 @@ def create_pdf(data, photo_base64):
 
     # ---------- Table data ----------
     table_data = [
-        ["Field", "Value"],
+        ["Candidate_Fields", "Details"],
         ["Full Name", data.get("full_name", "")],
         ["Email Address", data.get("email", "")],
         ["Mobile Number", data.get("mobile", "")],
@@ -102,3 +102,4 @@ def generate_form():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
