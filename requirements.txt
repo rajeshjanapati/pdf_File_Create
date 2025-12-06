@@ -1,0 +1,4 @@
+Flask
+reportlab
+base64
+Gunicorn
